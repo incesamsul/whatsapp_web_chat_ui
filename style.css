@@ -1,0 +1,178 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box !important;
+}
+
+.content-wrapper {
+    height: 100vh;
+    background-color: #262D31;
+    display: flex;
+    flex-direction: column;
+}
+
+.list-friend-segment {
+    background-color: #131C21;
+    width: 408px;
+    border-right: 1px solid #394045;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.list-friend {
+    cursor: pointer;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.sidebar-header {
+    border-bottom: 1px solid #394045;
+}
+
+.profile-wrapper {
+    background-color: #2A2F32;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 59px;
+    padding: 10px 16px;
+    color: #B1B3B5;
+}
+
+.search-wrapper {
+    height: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #7F7678;
+}
+
+.form-search {
+    padding: 0px 32px 0px 15px;
+    border-radius: 90px;
+    background-color: #323739;
+    width: 93%;
+    font-size: 14px;
+}
+
+.form-search input {
+    background-color: transparent;
+    border: none;
+    padding: 7px;
+    outline: none;
+    color: inherit;
+    margin-left: 20px;
+}
+
+.action-wrapper {
+    display: flex;
+    justify-content: space-around;
+    width: 140px;
+    font-size: 20px;
+}
+
+.profile-pict {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.profile-pict-lg {
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+}
+
+.friend-wrapper {
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+}
+
+.friend-wrapper:hover {
+    background-color: #323739;
+}
+
+.friend-img {
+    height: 72px;
+    width: 77px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.friend-chat {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid #394045;
+}
+
+.chat-wrapper {
+    width: 331px;
+}
+
+.chat-wrapper p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 280px;
+}
+
+.name-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.waktu-chat-masuk,
+.chat-terbaru {
+    color: #9DA196 !important;
+}
+
+.text-small {
+    font-size: 14px;
+}
+
+.chat-segment {
+    background-color: red !important;
+}
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: #131C21;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: #394045;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #394045;
+}
